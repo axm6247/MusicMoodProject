@@ -4,6 +4,7 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container'
 import Form from 'react-bootstrap/Form'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ReactPlayer from "react-player";
 
 class App extends Component {
   // Prevent page reload, clear input, set URL and push history on submit
@@ -47,6 +48,11 @@ class App extends Component {
             Find Me a Song!
             </Button>
         </Form>
+<br/>
+        <ReactPlayer
+        controls = {true}
+        url="https://www.youtube.com/watch?v=ug50zmP9I7s"
+      />
       </Container>
 
 
