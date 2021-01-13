@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactPlayer from "react-player";
 import YoutubePlayer from './components/YoutubePlayer'
 import MoodSelection from './components/MoodSelection'
-
+import Provider from './context/ProviderContext'
 
 const Main = props => (
 
@@ -18,27 +18,21 @@ const Main = props => (
 
 );
 
-class App extends Component {
+export default function () {
   // Prevent page reload, clear input, set URL and push history on submit
-  render() {
-    return (
 
-
-
+  return (
+    <Provider>
       <BrowserRouter>
         <Container>
           <Route component={Main} />
         </Container>
       </BrowserRouter>
+    </Provider>
+  );
 
 
-
-
-
-    );
-
-  }
 }
 
-export default App
+
 
