@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container'
 import Form from 'react-bootstrap/Form'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactPlayer from "react-player";
-import Context from '/Users/alanmadet/Documents/Codebase/MusicMoodProject/src/context/ProviderContext'
+import Context from '../context/Context'
 
 
 

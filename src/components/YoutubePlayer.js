@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container'
 import Form from 'react-bootstrap/Form'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactPlayer from "react-player";
-import Context from '/Users/alanmadet/Documents/Codebase/MusicMoodProject/src/context/ProviderContext'
+import Context from '../context/Context'
 
 
 
@@ -13,7 +13,7 @@ export default function () {
   // Prevent page reload, clear input, set URL and push history on submit
 
   const [controlsToggle, setControlsToggle] = useState(Context);
-  
+
   return (
 
     <ReactPlayer

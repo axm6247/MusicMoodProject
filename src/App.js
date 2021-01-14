@@ -7,16 +7,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactPlayer from "react-player";
 import YoutubePlayer from './components/YoutubePlayer'
 import MoodSelection from './components/MoodSelection'
-import Provider from './context/ProviderContext'
+import Provider from './context/Provider'
 
-const Main = props => (
-
-  <Switch>
-    <Route exact path="/"><MoodSelection /></Route>
-    <Route exact path="/youtubeplayer"><YoutubePlayer /></Route>
-  </Switch>
-
-);
 
 export default function () {
   // Prevent page reload, clear input, set URL and push history on submit
@@ -25,7 +17,10 @@ export default function () {
     <Provider>
       <BrowserRouter>
         <Container>
-          <Route component={Main} />
+          <Switch>
+            <Route exact path="/"><MoodSelection /></Route>
+            <Route exact path="/youtubeplayer"><YoutubePlayer /></Route>
+          </Switch>
         </Container>
       </BrowserRouter>
     </Provider>
