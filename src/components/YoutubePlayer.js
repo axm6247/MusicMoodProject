@@ -1,4 +1,4 @@
-import React, { Component , useState} from "react";
+import React, { Component, useState } from "react";
 import { HashRouter, Route, Switch, Redirect } from "react-router-dom";
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container'
@@ -13,6 +13,8 @@ export default function () {
   // Prevent page reload, clear input, set URL and push history on submit
 
   const [controlsToggle, setControlsToggle] = useState(Context);
+  // setControlsToggle("false")
+  
 
   return (
 

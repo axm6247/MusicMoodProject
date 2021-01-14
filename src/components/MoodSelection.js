@@ -42,7 +42,7 @@ export default function () {
 
         </Form.Group>
         <br />
-        <Link to={{pathname : "/youtubeplayer"}} onClick={() => setControlsToggle(true)} variant="danger" type="submit">
+        <Link to={{pathname : "/youtubeplayer"}} onClick={() => setControlsToggle(false)} variant="danger" type="submit">
           Find Me a Song!
   </Link>
       </Form>
