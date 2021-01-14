@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactPlayer from "react-player";
 import YoutubePlayer from './components/YoutubePlayer'
 import MoodSelection from './components/MoodSelection'
-import Provider from './context/Provider'
+import { Provider } from './context/Provider'
 
 
 export default function () {

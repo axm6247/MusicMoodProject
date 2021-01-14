@@ -1,13 +1,15 @@
-import React, { useState } from 'react'
-import Context from './Context'
+import React, { useState, createContext } from 'react'
+
+const Context= createContext({})
 
 const Provider = ({ children }) => {
-    const [controlsToggle, setControlsToggle] = useState(false);
+    const [controlsToggle, setControlsToggle] = useState({});
 
     return (
         <Context.Provider value={[controlsToggle, setControlsToggle]}>
+            {children}
         </Context.Provider>
     )
 }
 
-export default Provider
+export { Provider, Context }
