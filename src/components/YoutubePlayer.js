@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, { Component, useContext } from "react";
 import { HashRouter, Route, Switch, Redirect } from "react-router-dom";
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container'
@@ -12,7 +12,7 @@ import { Context } from '../context/Provider'
 export default function () {
   // Prevent page reload, clear input, set URL and push history on submit
 
-  const [controlsToggle, setControlsToggle] = useState(Context);
+  const [controlsToggle, setControlsToggle] = useContext(Context);
   // setControlsToggle("false")
   
 
@@ -20,7 +20,7 @@ export default function () {
 
     <ReactPlayer
       controls={controlsToggle}
-      url="https://www.youtube.com/watch?v=ug50zmP9I7s"
+      url="https://www.youtube.com/watch?v=xpVfcZ0ZcFM"
     />
 
 

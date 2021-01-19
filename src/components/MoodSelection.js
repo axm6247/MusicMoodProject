@@ -1,4 +1,4 @@
-import React, { Component , useState} from "react";
+import React, { Component , useContext} from "react";
 import { HashRouter, Route, Switch, Redirect, Link } from "react-router-dom";
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container'
@@ -12,7 +12,7 @@ import { Context } from '../context/Provider'
 
 export default function () {
   // Prevent page reload, clear input, set URL and push history on submit
-  const [controlsToggle, setControlsToggle] = useState(Context);
+  const [controlsToggle, setControlsToggle] = useContext(Context);
 
   return (
 
@@ -21,7 +21,7 @@ export default function () {
       <Form>
 
         <Form.Group controlId="formBasicCheckbox">
-          <Form.Label>Music Genre Preference:</Form.Label>
+          <Form.Label><b><i>Music Genre Preference:</i></b></Form.Label>
           <Form.Check type="checkbox" label="Country" />
           <Form.Check type="checkbox" label="Rap" />
           <Form.Check type="checkbox" label="Alternative" />
@@ -33,7 +33,7 @@ export default function () {
 
           <Form.Control as="select">
             <option>Select Mood</option>
-            <option>Happy</option>
+            <option >Happy</option>
             <option>Sad</option>
             <option>Spiritual</option>
             <option>Hyped</option>
@@ -42,8 +42,8 @@ export default function () {
 
         </Form.Group>
         <br />
-        <Link to={{pathname : "/youtubeplayer"}} onClick={() => setControlsToggle(false)} variant="danger" type="submit">
-          Find Me a Song!
+        <Link to={{pathname : "/youtubeplayer"}} onClick={() => setControlsToggle(true)} variant="danger" type="submit">
+        <Button variant="danger">Find Me a Song!</Button>
   </Link>
       </Form>
       <br />

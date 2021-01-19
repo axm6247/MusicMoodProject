@@ -5,8 +5,8 @@ body {
 }
 
 .forkongithub a {
-  background: #000;
-  color: #fff;
+  background: rgb(153, 129, 129);
+  color: rgb(255, 255, 255);
   text-decoration: none;
   font-family: arial, sans-serif;
   text-align: center;
