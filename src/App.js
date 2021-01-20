@@ -9,7 +9,7 @@ import YoutubePlayer from './components/YoutubePlayer'
 import MoodSelection from './components/MoodSelection'
 import Navbar from 'react-bootstrap/Navbar';
 import { Provider } from './context/Provider'
-import SideBarExample from "./components/SideBarExample";
+import Login from "./components/Login";
 // import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 
@@ -21,7 +21,7 @@ export default function () {
     <Provider>
       <BrowserRouter>
         <Navbar fixed="top" bg="dark" expand="lg" variant="dark" text-align="center">
-          <Navbar.Brand href="/"><p class="p1"><i><b>Music Mood</b></i></p></Navbar.Brand>
+          <Navbar.Brand href="/login"><p class="p1"><i><b>Music Mood</b></i></p></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
           </Navbar.Collapse>
@@ -30,7 +30,7 @@ export default function () {
           <Switch>
             <Route exact path="/"><MoodSelection /></Route>
             <Route exact path="/youtubeplayer"><YoutubePlayer /></Route>
-            <Route exact path="/sidebar"><SideBarExample/></Route>
+            <Route exact path="/login"><Login/></Route>
           </Switch>
         </Container>
       </BrowserRouter>
