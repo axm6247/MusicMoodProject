@@ -3780,7 +3780,7 @@ input[type="button"].btn-block {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 1px solid rgba(204, 139, 139, 0.125);
   border-radius: 0.25rem; }
   .card > hr {
     margin-right: 0;
@@ -8266,7 +8266,7 @@ h1, h2, h3, h4, h5,
         -o-transition: none;
         transition: none; } }
     #sidebar .custom-menu .btn.btn-primary {
-      background: #2f89fc;
+      background: rgb(28 28 28 / 84%);;
       border-color: transparent;
       position: relative;
       color: #000;

@@ -1,5 +1,6 @@
 import React from 'react';
 import '../style/video.css';
+import Button from 'react-bootstrap/Button';
 
 const VideoItem = ({video , handleVideoSelect}) => {
     console.log(video.id.videoId)
@@ -12,6 +13,8 @@ const VideoItem = ({video , handleVideoSelect}) => {
                 <div className='header '>{video.snippet.title}</div>
             </div>
         </div>
+        <br/>
+        
         <br/>
         </div>
     )
