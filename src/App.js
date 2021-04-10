@@ -14,6 +14,8 @@ import YoutubeSearch from './components/YoutubeSearch';
 import CreatePlaylist from './components/CreatePlaylist';
 import FormControl from 'react-bootstrap/FormControl'
 import RecommendedVideos from "./components/RecommendedVideos";
+import AddModal from "./components/AddModal";
+import CreatePlaylistDemo from "./components/CreatePlaylistDemo";
 // import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 class App extends Component {
@@ -56,6 +58,8 @@ class App extends Component {
             <Route exact path = "/search"><YoutubeSearch/></Route>
             <Route exact path = "/create"><CreatePlaylist/></Route>
             <Route exact path = "/recommended"><RecommendedVideos/></Route>
+            <Route exact path = "/addmodal"><AddModal/></Route>
+            <Route exact path = "/result"><CreatePlaylistDemo></CreatePlaylistDemo></Route>
           </Switch>
         </Container>
       </BrowserRouter>
