@@ -21,6 +21,7 @@ function MyVerticallyCenteredModal(props) {
           {/* <h4>Centered Modal</h4> */}
           <p>
           <Form.Control as="select">
+                <option>Choose Existing Playlist</option>
               <option>Life Hacks Tutorial</option>
               <option >Music Video Playlist</option>
               <option>Politics</option>

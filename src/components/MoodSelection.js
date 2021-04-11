@@ -42,13 +42,13 @@ export default function () {
       controls={true}
       height={240}
       width={426}
-      url="https://www.youtube.com/watch?v=xpVfcZ0ZcFM"
+      url="https://www.youtube.com/watch?v=Dp7mGfP4TOI"
     /></Col><Col lg={1}></Col> <Col lg={5}>
     <ReactPlayer
   controls={true}
   height={240}
   width={426}
-  url="https://www.youtube.com/watch?v=xpVfcZ0ZcFM"
+  url="https://www.youtube.com/watch?v=oBHTqoR0-8M"
 /></Col></Row>
     <br/>
     <Row><Col lg={5}>
@@ -56,13 +56,13 @@ export default function () {
       controls={true}
       height={240}
       width={426}
-      url="https://www.youtube.com/watch?v=xpVfcZ0ZcFM"
+      url="https://www.youtube.com/watch?v=r3iSRAcqI6Q"
     /></Col><Col lg={1}></Col> <Col lg={5}>
     <ReactPlayer
   controls={true}
   height={240}
   width={426}
-  url="https://www.youtube.com/watch?v=xpVfcZ0ZcFM"
+  url="https://www.youtube.com/watch?v=Pt7QNgq3P78"
 /></Col></Row>
      </Card.Body>
 
@@ -81,13 +81,13 @@ export default function () {
       controls={true}
       height={240}
       width={426}
-      url="https://www.youtube.com/watch?v=xpVfcZ0ZcFM"
+      url="https://www.youtube.com/watch?v=m7Bc3pLyij0"
     /></Col><Col lg={1}></Col> <Col lg={5}>
     <ReactPlayer
   controls={true}
   height={240}
   width={426}
-  url="https://www.youtube.com/watch?v=xpVfcZ0ZcFM"
+  url="https://www.youtube.com/watch?v=VF-r5TtlT9w"
 /></Col></Row>
     <br/>
     <Row><Col lg={5}>
@@ -95,7 +95,7 @@ export default function () {
       controls={true}
       height={240}
       width={426}
-      url="https://www.youtube.com/watch?v=xpVfcZ0ZcFM"
+      url="https://www.youtube.com/watch?v=XXYlFuWEuKI"
     /></Col><Col lg={1}></Col> <Col lg={5}>
     <ReactPlayer
   controls={true}
@@ -121,13 +121,13 @@ export default function () {
       controls={true}
       height={240}
       width={426}
-      url="https://www.youtube.com/watch?v=xpVfcZ0ZcFM"
+      url="https://www.youtube.com/watch?v=OXKYPb3GChQ"
     /></Col><Col lg={1}></Col> <Col lg={5}>
     <ReactPlayer
   controls={true}
   height={240}
   width={426}
-  url="https://www.youtube.com/watch?v=xpVfcZ0ZcFM"
+  url="https://www.youtube.com/watch?v=yUQFimV6ifQ"
 /></Col></Row>
     <br/>
     <Row><Col lg={5}>
@@ -135,13 +135,13 @@ export default function () {
       controls={true}
       height={240}
       width={426}
-      url="https://www.youtube.com/watch?v=xpVfcZ0ZcFM"
+      url="https://www.youtube.com/watch?v=0lgCOaqH9Ag"
     /></Col><Col lg={1}></Col> <Col lg={5}>
     <ReactPlayer
   controls={true}
   height={240}
   width={426}
-  url="https://www.youtube.com/watch?v=xpVfcZ0ZcFM"
+  url="https://www.youtube.com/watch?v=Wf_WAZom8C8"
 /></Col></Row>
      </Card.Body>
 
@@ -161,13 +161,13 @@ export default function () {
       controls={true}
       height={240}
       width={426}
-      url="https://www.youtube.com/watch?v=xpVfcZ0ZcFM"
+      url="https://www.youtube.com/watch?v=djHhgaE6VBk"
     /></Col><Col lg={1}></Col> <Col lg={5}>
     <ReactPlayer
   controls={true}
   height={240}
   width={426}
-  url="https://www.youtube.com/watch?v=xpVfcZ0ZcFM"
+  url="https://www.youtube.com/watch?v=2FOL6SM_O2Y"
 /></Col></Row>
     <br/>
     <Row><Col lg={5}>
@@ -175,13 +175,13 @@ export default function () {
       controls={true}
       height={240}
       width={426}
-      url="https://www.youtube.com/watch?v=xpVfcZ0ZcFM"
+      url="https://www.youtube.com/watch?v=3D8zc5uOfOw"
     /></Col><Col lg={1}></Col> <Col lg={5}>
     <ReactPlayer
   controls={true}
   height={240}
   width={426}
-  url="https://www.youtube.com/watch?v=xpVfcZ0ZcFM"
+  url="https://www.youtube.com/watch?v=EGkECJJdEQM"
 /></Col></Row>
      </Card.Body>
 
@@ -195,12 +195,32 @@ export default function () {
       </Accordion.Toggle>
     </Card.Header>
     <Accordion.Collapse eventKey="4">
-      <Card.Body><ReactPlayer
-      controls={true}
-      height={240}
-      width={426}
-      url="https://www.youtube.com/watch?v=xpVfcZ0ZcFM"
-    /></Card.Body>
+      <Card.Body><Row><Col lg={5}>
+    <ReactPlayer
+  controls={true}
+  height={240}
+  width={426}
+  url="https://www.youtube.com/watch?v=WdIfjzreRnM"
+/></Col><Col lg={1}></Col> <Col lg={5}>
+<ReactPlayer
+controls={true}
+height={240}
+width={426}
+url="https://www.youtube.com/watch?v=DF7gpzLUbiI"
+/></Col></Row><br/><Row><Col lg={5}>
+    <ReactPlayer
+  controls={true}
+  height={240}
+  width={426}
+  url="https://www.youtube.com/watch?v=M31zUWHiXlA"
+/></Col><Col lg={1}></Col> <Col lg={5}>
+<ReactPlayer
+controls={true}
+height={240}
+width={426}
+url="https://www.youtube.com/watch?v=FWFb-8hFutY"
+/></Col></Row>
+    </Card.Body>
     </Accordion.Collapse>
   </Card>
 </Accordion>

@@ -30,6 +30,7 @@ function MyVerticallyCenteredModal(props) {
         {/* <h4>Centered Modal</h4> */}
         <p>
         <Form.Control as="select">
+            <option>Choose Existing Playlist</option>
             <option>Life Hacks Tutorial</option>
             <option >Music Video Playlist</option>
             <option>Politics</option>
@@ -63,7 +64,7 @@ export default function () {
           controls={true}
           height={240}
           width={426}
-          url="https://www.youtube.com/watch?v=xpVfcZ0ZcFM"
+          url="https://www.youtube.com/watch?v=MwHHErfX9hI"
     />
     <br/>
     <Button variant="danger" onClick={() => setModalShow(true)}>
@@ -80,7 +81,7 @@ export default function () {
               controls={true}
               height={240}
               width={426}
-              url="https://www.youtube.com/watch?v=xpVfcZ0ZcFM"
+              url="https://www.youtube.com/watch?v=SBdVhvo2UUM"
         />
         <br/>
         <Button variant="danger" onClick={() => setModalShow(true)}>
@@ -96,7 +97,7 @@ export default function () {
           controls={true}
           height={240}
           width={426}
-          url="https://www.youtube.com/watch?v=xpVfcZ0ZcFM"
+          url="https://www.youtube.com/watch?v=rDs3o1uLEdU"
     />
     <br/>
     <Button variant="danger" onClick={() => setModalShow(true)}>
@@ -112,7 +113,7 @@ export default function () {
           controls={true}
           height={240}
           width={426}
-          url="https://www.youtube.com/watch?v=xpVfcZ0ZcFM"
+          url="https://www.youtube.com/watch?v=6TqcZIt7rEA"
     />
     <br/>
     <Button variant="danger" onClick={() => setModalShow(true)}>
@@ -125,7 +126,38 @@ export default function () {
     
       
       </Row>
-     
+     <Row><Col lg={1}></Col>
+     <Card>
+      
+      <Card.Body>
+      <ReactPlayer
+              controls={true}
+              height={240}
+              width={426}
+              url="https://www.youtube.com/watch?v=iJjgDxCpdt4"
+        />
+        <br/>
+        <Button variant="danger" onClick={() => setModalShow(true)}>
+           Add to Playlist Card
+          </Button>
+      </Card.Body>
+          </Card>
+          <Card>
+      
+      <Card.Body>
+      <ReactPlayer
+              controls={true}
+              height={240}
+              width={426}
+              url="https://www.youtube.com/watch?v=rYwy0lodsVk"
+        />
+        <br/>
+        <Button variant="danger" onClick={() => setModalShow(true)}>
+           Add to Playlist Card
+          </Button>
+      </Card.Body>
+          </Card>
+     </Row>
 
       <MyVerticallyCenteredModal
         show={modalShow}

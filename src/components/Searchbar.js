@@ -1,8 +1,8 @@
 import React from 'react';
-
+import YouTubeLogo from '../images/YouTubeSquare.png';
 class Searchbar extends React.Component {
     state = {
-        term: 'Type Here'
+        term: 'Type Here to Search for Videos'
     };
     handleChange = (event) => {
         this.setState({
@@ -18,8 +18,11 @@ class Searchbar extends React.Component {
         return (
             <div className='search-bar ui segment'>
                 <form onSubmit={this.handleSubmit} className='ui form'>
-                    <div className='field'>
-                        <label htmlFor="video-search"><h1><b>YouTube Search</b></h1></label>
+                    <div className='field' border-style = "solid">
+                    
+                        <label htmlFor="video-search" border-color= "black"><img height = "90px"className="profile-photo" src={YouTubeLogo} alt={"Logo"}/></label>
+                        <br/>
+                        <br/>
                         <input onChange={this.handleChange} name='video-search' type="text" value={this.state.term}/>
                     </div>
                 </form>
